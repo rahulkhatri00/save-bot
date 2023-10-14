@@ -8,10 +8,8 @@ import os
 import threading
 
 bot_token = os.environ.get("TOKEN", "6479989381:AAEPulDxreiI5_agmMZC79jaKHosaTbckMM") 
-api_hash = os.environ.get("HASH", "38fb061efb9e27b865f6923d2bb03e49
-") 
-api_id = os.environ.get("ID", "16818625
-")
+api_hash = os.environ.get("HASH", "38fb061efb9e27b865f6923d2bb03e49") 
+api_id = os.environ.get("ID", "16818625")
 ss = os.environ.get("STRING", "BQEAocEAi3vDxV7S286oUJDYQR31uAimbR7XDcE5yalDvqaNuVQB8igg1R4hV9R_Sfo3Xgqhh4BGoNVkg28iVKx-q2r5nrIzdhMLEMIcjHszkBFBJiO2Dhgtj88aTbZt92OWPLKwvoJ3MJEB0K5YbIX-pHbPlbFzCUiIdk2UX9xyIAwMoSjWU12wWsbxe26FkOhkrHil0MBfhZOdigmKSmMuogfRcn1BoUhKG5B6SEADZNlaZE0qj4RV6sXpiNufhkggGhqABVYwJdY76XeaFuIgmNvKXXmqMKGEis7lIby7LQ9xVGanp7tKXY3cg3IUfVRXSM6EYaLtcRt2_tcflAmNBf9k8gAAAABReVYfAA")
 bot = Client("mybot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
 acc = Client("myacc",api_id=api_id,api_hash=api_hash,session_string=ss)
