@@ -10,14 +10,14 @@ import threading
 bot_token = os.environ.get("TOKEN", "6479989381:AAEdNOveuiuOdhgnD6NIfnnTj3OrrgdkpGU") 
 api_hash = os.environ.get("HASH", "38fb061efb9e27b865f6923d2bb03e49") 
 api_id = os.environ.get("ID", "16818625")
-ss = os.environ.get("STRING", "BQEAocEAFyCYqLqbYeubvkmRS6qTMUK1WTxB2MCUhB7ARYh_d0moEZQbtUVraNNCqxu25PSpumspJzkWmAixfTY8KZnGU_qlrxmjV6lM2uAOlxmkHv56o-S9eX8sTb_SIJ8xHqA3En0bSCfFwuV_GVVvYIdO7V89HFcWemAYmd13xLcKIUQ_vAhQVb1sN0-yk3cgM2sYnRg7BzS_wNxN74zHSDJCiezyQZ6KYeGCZYYvT5BKNWuYnF33krSdKfV_Y0X5zf4o7wP7K_7RBLr_drGrXiAKQzGgYl645n1KrRJnzbnmlYxmMMT10JRumSVu4QgTuw-zW-ckvgRyCK8QBZB18RWhTgAAAABReVYfAA")
+ss = os.environ.get("STRING", "BQEAocEAPxs7KPnaswTgh3A4oaENXP1SdP5f9ANSjNCsFdZHKroDrh1G3q2_YheXuWyZHFejfPZythBayEmsNDHWS_rm6u_n753_mPRI0VVcRJ0LNjINJOemrf8qMEfFhA4jfhUToDzopGD-XAwMplVDX6mvOh6Y9rq46GWue6WcfS6bpTSWvmyFtHVp1gDbUM3PzuWRj3j4lBIt1oljD852dpxP7Bx8WZJt8VI0bnc-ZRJ1lThizWF0gPozsviqfOo3eabwozDzY8C3zIjRd8VMW59biUMYcxgAXIPkL6Ci349Kzg3dfJQHl269xdunyrI6HUDDWk3WB3eikpXniIC_NETz_gAAAABReVYfAA")
 bot = Client("mybot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
 acc = Client("myacc",api_id=api_id,api_hash=api_hash,session_string=ss)
 
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
- editable = await m.reply_text("**I am a simple save restricted bot**.\n\nSend message link to clone/download here\n ")
+ editable = await m.reply_text("**I am pro save restricted bot**.\n\nSend message link to clone/download here\n ")
 @bot.on_message(filters.command(["bulk"]))
 async def account_login(bot: Client, m: Message):
  editable = await m.reply_text("**I am not an advanced bot")
